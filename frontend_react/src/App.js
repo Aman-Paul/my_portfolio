@@ -2,6 +2,7 @@ import React from "react";
 import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
+import Certificates from "./container/Certificates/Certificates";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
+      <Certificates />
       <Footer />
     </div>
   );
