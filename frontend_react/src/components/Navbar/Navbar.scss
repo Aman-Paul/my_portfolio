@@ -155,4 +155,10 @@
   @media screen and (min-width: 900px) {
     display: none;
   }
+
+  @media screen and (max-width: 376px) {
+    div {
+      width: 100%;
+    }
+  }
 }
